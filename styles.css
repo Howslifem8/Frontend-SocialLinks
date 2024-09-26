@@ -17,13 +17,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     
 }
 
 
 .Profile-card {
-    max-width: 500px;
+    max-width: 350px;
     background-color: hsl(0, 0%, 12%);
     padding: 20px;
     border-radius: 15px;
@@ -123,3 +123,13 @@ p {
     text-decoration: none;
     color: rgb(235, 179, 179);
 }
+
+@media (max-width: 440px) {
+
+    .Profile-card {
+        max-width: 300px;
+    }
+
+}
+
+
